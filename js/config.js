@@ -8,18 +8,18 @@
 //  os dados ficam salvos só neste navegador (localStorage), ótimo para testar.
 // =====================================================================
 export const firebaseConfig = {
-  apiKey: "AIzaSyC-UigG6Yn1kS2kCZM_BVkQ8HScNpN_dqA",
-  authDomain: "cardapio-oline50k.firebaseapp.com",
-  projectId: "cardapio-oline50k",
-  storageBucket: "cardapio-oline50k.firebasestorage.app",
-  messagingSenderId: "547302055401",
-  appId: "1:547302055401:web:876f43504e111dfefcff78"
+  apiKey: "AIzaSyCYO_4qwk83Fx5H35XeZINJPoRsBiW52a4",
+  authDomain: "cardapio-online-5ab96.firebaseapp.com",
+  projectId: "cardapio-online-5ab96",
+  storageBucket: "cardapio-online-5ab96.firebasestorage.app",
+  messagingSenderId: "839297878958",
+  appId: "1:839297878958:web:700458ac784fa434f0d63f"
 };
 
 // E-mail do SUPERADMIN (dono do sistema). Crie esse usuário em Firebase › Authentication › Usuários.
 // Deve ser o mesmo e-mail que está no topo do arquivo firestore.rules (função superadmin).
 // Os demais usuários são cadastrados por ele em Configurações › Equipe (coleção "equipe").
-export const SUPERADMIN_EMAIL = "rasistema25@gmail.com";
+export const SUPERADMIN_EMAIL = "umpierres123@gmail.com";
 
 export const DEMO =!firebaseConfig.apiKey;
 
